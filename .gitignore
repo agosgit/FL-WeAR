@@ -123,6 +123,7 @@ DOKUMENTASI_*.md
 # Auxiliary helper scripts for docx/pdf generation
 create_response_docx.py
 build_ijies_revised_manuscript.py
+build_combined_submission_docx.py
 generate_comprehensive_experiment_docx.py
 populate_docx_results.py
 replace_docx_figures_with_highres.py

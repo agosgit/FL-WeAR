@@ -1,0 +1,4 @@
+Alpha (α),Heterogeneity Condition,Client Sample Distribution,Final Test Accuracy (%),Convergence Round (Reach >70%)
+0.1,Severe Non-IID (α = 0.1),"[470, 487, 473, 534, 208]",55.62,15
+0.5,Natural Moderate Non-IID (α = 0.5),"[277, 678, 451, 206, 560]",71.45,12
+1.0,Mild / Near-IID (α = 1.0),"[457, 236, 452, 446, 581]",75.32,10

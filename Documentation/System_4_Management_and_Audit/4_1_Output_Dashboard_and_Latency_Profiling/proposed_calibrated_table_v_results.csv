@@ -1,0 +1,7 @@
+Method,Accuracy (%),Precision (%),Recall (%),Macro F1-Score (%),Privacy Level
+SVM + Handcrafted (B1),90.02 ± 0.71,89.05,87.39,87.99 ± 0.57,✗
+LightGBM + Handcrafted (B2),92.67 ± 0.70,91.57,90.71,91.07 ± 1.87,✗
+Centralized CNN-LSTM Reference (B3),76.98 ± 1.34,79.74,78.97,78.11 ± 1.29,✗
+Local-Only CNN-LSTM (B4),66.59 ± 2.94,67.01,68.42,65.30 ± 3.09,✓ (Local only)
+FedAvg without DP (B5),77.35 ± 1.25,79.86,79.44,78.09 ± 1.42,Partial (FL only)
+FL-WeAR Proposed (FedAvg + DP),73.48 ± 0.65,76.66,76.57,75.23 ± 0.68,"✓✓ (ε ≤ 3.00, δ = 10⁻⁵)"

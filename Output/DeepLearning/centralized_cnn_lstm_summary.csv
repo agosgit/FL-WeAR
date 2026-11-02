@@ -1,0 +1,2 @@
+Method,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Latency per Sample (ms)
+Centralized CNN-LSTM,84.87 ± 1.30,85.68,84.25,84.26 ± 1.39,10.7049

@@ -1,0 +1,10 @@
+Metrik Komunikasi,Nilai / Ukuran
+Parameter Model (CNN-LSTM float32),"216,582 params (0.8262 MB)"
+Uplink Traffic per Round (3 Klien),2.479 MB
+Downlink Broadcast per Round (5 Klien),4.131 MB
+Total Trafik per Round,6.610 MB
+Kumulatif Uplink (20 Rounds),49.57 MB
+Kumulatif Downlink Broadcast (20 Rounds),82.62 MB
+Total Kumulatif Trafik Jaringan (20 Rounds),132.19 MB
+Enkripsi Saluran & Integritas,TLS 1.3 + AES-256-GCM (Zero Overhead)
+Pertukaran Privasi vs Komunikasi,Menukar 51.98 MB Uplink untuk Zero Raw Data Exposure

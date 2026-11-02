@@ -1,0 +1,9 @@
+Method,Accuracy (%),Balanced Acc. (%),Macro Precision (%),Macro Recall (%),Macro F1 (%),Weighted F1 (%)
+SVM + handcrafted features,90.02 ± 0.71,87.39,89.05,87.39,87.99 ± 0.57,89.96
+LightGBM + handcrafted features,92.67 ± 0.70,90.71,91.57,90.71,91.07 ± 1.87,92.63
+Centralized CNN-LSTM,79.04 ± 2.05,80.25,80.69,80.25,79.58 ± 2.06,78.67
+Local-only CNN-LSTM,64.38 ± 2.50,64.68,63.41,64.68,61.78 ± 4.97,63.06
+FedAvg CNN-LSTM,77.35 ± 1.36,79.11,79.59,79.11,77.90 ± 1.42,76.36
+FedProx CNN-LSTM,77.94 ± 1.15,80.28,81.03,80.28,79.55 ± 1.29,77.51
+SCAFFOLD CNN-LSTM,45.93 ± 4.50,38.22,30.60,38.22,27.63 ± 4.39,39.23
+FL-WeAR,73.48 ± 1.62,76.00,76.46,76.00,74.14 ± 1.72,71.70

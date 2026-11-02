@@ -1,0 +1,6 @@
+Client ID,Data Samples (n_k),Norm Quantity (q_hat),Marginal Utility (ΔA),Norm Utility (ΔA_hat),Latency (ms),Norm Latency Eff (r_hat),Composite Score (S_k),Allocated Tokens
+Welder_1,543,0.2,0.032,0.1649,1200,0.2085,0.1877,187.67
+Welder_2,543,0.2,0.045,0.232,1350,0.1853,0.2098,209.84
+Welder_3,543,0.2,0.028,0.1443,1100,0.2274,0.1832,183.22
+Welder_4,543,0.2,0.051,0.2629,1400,0.1787,0.2209,220.89
+Welder_5,543,0.2,0.038,0.1959,1250,0.2001,0.1984,198.38

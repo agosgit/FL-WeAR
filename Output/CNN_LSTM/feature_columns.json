@@ -1,0 +1,11 @@
+[
+  "accel_x_filtered",
+  "accel_y_filtered",
+  "accel_z_filtered",
+  "gyro_x_filtered",
+  "gyro_y_filtered",
+  "gyro_z_filtered",
+  "mag_x_filtered",
+  "mag_y_filtered",
+  "mag_z_filtered"
+]

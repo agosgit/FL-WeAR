@@ -1,0 +1,2 @@
+Metode Classifier,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Latency per Sample (ms)
+SVM (B1) - RBF,90.12 ± 1.92,91.57,88.69,89.97,0.3448

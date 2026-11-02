@@ -1,0 +1,2 @@
+Metode Classifier,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Latency Total (s),Latency per Sample (s),Latency per Sample (ms)
+LGBM,99.45,99.47,99.45,99.45,0.051053,2.3e-05,0.0235

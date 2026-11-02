@@ -1,0 +1,2 @@
+Metode Classifier,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Train Prediction Time (s),Test Prediction Time (s)
+CNN,85.35,85.19,85.35,85.14,0.4215109348297119,0.13301825523376465

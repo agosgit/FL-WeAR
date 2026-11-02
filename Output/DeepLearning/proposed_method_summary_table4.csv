@@ -1,0 +1,2 @@
+Method,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Latency per Sample (ms)
+Proposed Method (FL + DP eps=3.0),75.37,76.64,76.29,73.90,4.5523

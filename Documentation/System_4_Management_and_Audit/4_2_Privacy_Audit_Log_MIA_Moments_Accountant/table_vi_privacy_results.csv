@@ -1,0 +1,6 @@
+Method,ε,δ,MIA Acc (%),ε after T rounds,Privacy level
+Centralized CNN-LSTM (B3),∞,—,62.4,N/A,None
+"FL, no DP (B5)",∞,—,57.64,N/A,Partial (arch.)
+FL + DP ε=10,10.0,10⁻⁵,53.58,19.0,Low
+Proposed (FL + DP ε=3),3.0,10⁻⁵,51.27,5.7,Strong
+FL + DP ε=1,1.0,10⁻⁵,50.23,1.9,Very strong

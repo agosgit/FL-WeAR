@@ -1,0 +1,204 @@
+# ==============================================================================
+# FL-WeAR (.gitignore) - Official Repository for IJIES Reproducibility
+# Repository: https://github.com/agosgit/FL-WeAR
+# Paper: FL-WeAR: Differentially Private Federated CNN-LSTM for Worker-Centric
+#        Welder Activity Recognition Using Wrist-Worn IMU Sensors
+# Journal: International Journal of Intelligent Engineering and Systems (IJIES)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. PYTHON, COMPILER & ENVIRONMENT CACHES
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE, OS & System Metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.gemini/
+~$*
+~$*.docx
+
+# ------------------------------------------------------------------------------
+# 2. RAW BIOMETRIC SENSOR DATA & HEAVY ARCHIVES (ETHICAL & IRB RESTRICTIONS)
+# Raw IMU timeseries recordings containing worker motion telemetry (PPNS-IRB-2024-08)
+# ------------------------------------------------------------------------------
+RAWDATA.xlsx
+WAR.zip
+Figures.rar
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.dat
+*.npy
+*.npz
+
+# Raw worker folders
+Raw Data Welder/
+Split Welder/
+Processed_15_Welders/
+
+# Heavy intermediate preprocessed data
+Output/B_Filtered_Data.csv
+Output/C_Extracted_Features.csv
+Output/D_Normalized_Features.dat
+Output/E_Train_Data.csv
+Output/E_Test_Data.csv
+Output/Segmentation/
+Documentation/System_1_Preprocessing/
+
+# ------------------------------------------------------------------------------
+# 3. BINARY MODEL WEIGHTS & COMPILED CHECKPOINTS
+# Binary model weights (h5, onnx, joblib, tflite, pb) are excluded to avoid repo bloat
+# Models can be reproduced deterministically using the evaluation scripts.
+# ------------------------------------------------------------------------------
+*.h5
+*.onnx
+*.joblib
+*.tflite
+*.pb
+**/variables/
+Output/CNN/model_cnn_trained.h5
+Output/CNN_LSTM/model_cnn_lstm_trained.h5
+Output/CNN_LSTM/*.onnx
+Output/CNN_LSTM/saved_model/
+Output/CNN_LSTM/trainable_tflite_export/
+Output/CNN_LSTM_FUSION/model_fusion_cnn_lstm.h5
+Output/LSTM/model_lstm_trained.h5
+Output/LGBM/*.joblib
+Output/SVM/*.joblib
+Documentation/**/*.tflite
+
+# ------------------------------------------------------------------------------
+# 4. MANUSCRIPT DRAFTS, PEER-REVIEW FILES & INTERNAL CORRESPONDENCE
+# (Confidential peer review communications & proprietary drafting documents)
+# ------------------------------------------------------------------------------
+*.docx
+*.pdf
+comment-review-*.docx
+RESPONSE_TO_REVIEWERS_*.md
+paper_draft_filled.md
+RINGKASAN_*.md
+DOKUMENTASI_*.md
+
+# Auxiliary helper scripts for docx/pdf generation
+create_response_docx.py
+build_ijies_revised_manuscript.py
+generate_comprehensive_experiment_docx.py
+populate_docx_results.py
+replace_docx_figures_with_highres.py
+check_*.py
+inspect_*.py
+view_*.py
+compare_*.py
+ocr_*.py
+
+# ------------------------------------------------------------------------------
+# 5. TEMPORARY SCRATCH DUMPS, OCR & VISUAL SANITY RENDER CHECKS
+# ------------------------------------------------------------------------------
+*.log
+*.txt
+scratch/
+pdf_extracted_images/
+extracted_docx_figures/
+extracted_paten_figures/
+render_check_page_*.png
+test_title_*.png
+img_top_*.png
+im8_title.png
+im9_5_title.png
+fig4_page8_check.png
+page_7_rendered.png
+test_formula.png
+eq5_crop.png
+equations_4_5_6_7.png
+tmp_*.json
+
+# ------------------------------------------------------------------------------
+# 6. PATENT DOCUMENTS & SUBSIDIARY CLAIMS
+# ------------------------------------------------------------------------------
+*PATEN*
+*paten*
+Paten1_gambar.*
+build_paten_code_docx.py
+demo_patent_pipeline.py
+build_smartphone_war_docx.py
+
+# ------------------------------------------------------------------------------
+# 7. WHITELISTED REPRODUCIBILITY ARTIFACTS (EXPLICIT INCLUSIONS)
+# ------------------------------------------------------------------------------
+# Metadata & Documentation
+!README.md
+!requirements.txt
+!LICENSE
+!.gitignore
+
+# Reproducibility Configs & Split Indices
+!cv_folds_indices.json
+!dp_config.json
+
+# Core Evaluation Scripts
+!run_complete_8_models_loso_evaluation.py
+!loso_leakage_free_evaluation.py
+!generate_all_paper_figures_300dpi.py
+!generate_perfect_fig123_300dpi.py
+
+# System Architecture & Documentation Modules
+!Documentation/
+!Documentation/**/README.md
+!Documentation/**/*.py
+!Documentation/**/*.json
+!Documentation/**/*.csv
+!Documentation/**/*.png
+
+# Paper Final Figures (300 DPI)
+!Output/Figures/
+!Output/Figures/fig_*.png
+
+# Paper Benchmark Summary Results
+!Output/loso_table_v_leakage_free_results.csv
+!Output/table_vi_per_worker_results.csv
+!Output/table_vi_per_class_results.csv
+!Output/table_vii_privacy_results.csv
+!Output/table_viii_ablation_results.csv
+!Output/non_iid_evaluation_summary.csv
+!Output/deep_learning_latency_summary.csv
+!Output/loso_all_8_models_raw_folds.json

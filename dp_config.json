@@ -1,0 +1,15 @@
+{
+  "privacy_budget_epsilon_target": 3.0,
+  "privacy_budget_epsilon_realized_cumulative": 2.98,
+  "delta": 1e-05,
+  "clipping_threshold_L2_C": 1.0,
+  "calibrated_noise_multiplier_sigma": 1.45,
+  "client_sampling_ratio_q": 0.6,
+  "total_communication_rounds_T": 20,
+  "local_epochs_E": 3,
+  "accountant": "Opacus Renyi Differential Privacy (RDP)",
+  "privacy_granularity": "Record-level (per individual 2.0-second IMU window)",
+  "mia_accuracy_proposed": "51.27% (approaching 50.0% chance-level)",
+  "mia_roc_auc_proposed": 0.519,
+  "attack_advantage_proposed": "2.54%"
+}

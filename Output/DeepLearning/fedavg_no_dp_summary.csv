@@ -1,0 +1,2 @@
+Method,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Latency per Sample (ms)
+"FL FedAvg, no DP (B5)",82.72,85.89,85.27,84.47,7.0875

@@ -1,0 +1,6 @@
+Method,Privacy Budget (ε),δ,MIA Accuracy (%),MIA ROC-AUC,Attack Advantage (%),Cumulative Privacy Budget (ε_total),Privacy Level
+Centralized CNN-LSTM (B3),∞,-,62.4,0.684,24.8,N/A,None
+"Federated Learning (FedAvg, without DP) (B5)",∞,-,57.64,0.612,15.28,N/A,Partial (FL Architecture Only)
+Federated Learning + Differential Privacy (ε = 10.0),10.0,1 × 10⁻⁵,53.58,0.548,7.16,9.85,Low
+"FL-WeAR (FedAvg + DP, Proposed)",3.0,1 × 10⁻⁵,51.27,0.519,2.54,2.98 (≤ 3.00),Strong
+Federated Learning + Differential Privacy (ε = 1.0),1.0,1 × 10⁻⁵,50.23,0.504,0.46,0.98 (≤ 1.00),Very Strong

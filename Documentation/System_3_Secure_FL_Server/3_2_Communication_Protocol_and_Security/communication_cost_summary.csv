@@ -1,0 +1,5 @@
+Method,Data_per_Round,Total_Rounds,Total_Sent,Overhead_vs_Centralized,Privacy_Guarantee
+Centralized (B3),Full raw dataset,1 (one-shot),~0.12 GB (~122.9 MB),Baseline (100%),None (Raw Data Exposed)
+Local-only (B4),0 MB (no comm.),N/A,0 MB,— (no server),Isolated Local
+"FL FedAvg, no DP (B5)",~1.72 MB,20 rds,~172.00 MB,+40.0%,Partial (Architecture Only)
+Proposed FL-WeAR (FedAvg/FedProx + DP),~1.72 MB,20 rds,~172.00 MB,+40.0%,Strong (Formal DP eps=3.0)

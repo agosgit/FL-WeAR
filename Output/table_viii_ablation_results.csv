@@ -1,0 +1,7 @@
+Configuration,Acc (%),Macro F1 (%),Δ F1 (pp),Key Observation
+Full model (Proposed FL-WeAR),73.48,75.23,—,Best overall privacy-utility balance
+w/o LSTM (CNN only),67.28,67.78,-7.45,Temporal sequence dynamics loss
+w/o CNN (LSTM only),64.08,64.03,-11.20,Local spatial motion feature loss
+w/o DP (FL only),77.35,78.09,+2.86,Upper FL bound without formal privacy
+w/o FL (Local only),66.59,65.30,-9.93,No collaboration across workers
+w/o class balancing,43.48,18.00,-57.23,Minority classes severely hurt

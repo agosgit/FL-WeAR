@@ -1,0 +1,7 @@
+Class,Label,Precision,Recall,F1,Support,Confusion
+Standing-Active,C1,93.18,86.32,89.62,95,C3 (8.42%)
+Sitting-Active,C2,85.71,66.67,75.0,18,C6 (33.33%)
+Lying-Active,C3,68.09,50.79,58.18,63,C5 (44.44%)
+Standing-NonActive,C4,100.0,94.44,97.14,18,C1 (5.56%)
+Sitting-NonActive,C5,64.63,88.33,74.65,60,C3 (11.67%)
+Lying-NonActive,C6,75.0,100.0,85.71,18,None (0.00%)

@@ -1,0 +1,2 @@
+Model,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Buffering (ms),Preprocessing (ms),Inference (ms),Decision (ms),Total Latency (ms)
+CNN,85.35,85.19,85.35,85.14,1000.0,5.0,136.77,0.5,1142.27

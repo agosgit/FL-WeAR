@@ -1,0 +1,13 @@
+{
+  "tflite_path": "Output/CNN_LSTM/trainable_tflite_export/trainable_har_model3.tflite",
+  "saved_model_dir": "Output/CNN_LSTM/trainable_tflite_export/saved_model_trainable",
+  "window_size": 100,
+  "num_features": 9,
+  "num_classes": 6,
+  "signatures": [
+    "infer",
+    "train",
+    "export_weights"
+  ],
+  "scaler_embedded": true
+}

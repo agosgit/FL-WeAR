@@ -1,0 +1,8 @@
+{
+    "FedProx_NoDP": {
+        "Accuracy": "79.34 \u00b1 0.91",
+        "Precision": 81.35,
+        "Recall": 81.52,
+        "F1": "80.35 \u00b1 1.02"
+    }
+}

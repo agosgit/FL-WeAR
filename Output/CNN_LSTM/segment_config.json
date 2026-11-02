@@ -1,0 +1,17 @@
+{
+  "sampling_rate": 50,
+  "window_size": 100,
+  "step_size": 50,
+  "num_features": 9,
+  "feature_columns": [
+    "accel_x_filtered",
+    "accel_y_filtered",
+    "accel_z_filtered",
+    "gyro_x_filtered",
+    "gyro_y_filtered",
+    "gyro_z_filtered",
+    "mag_x_filtered",
+    "mag_y_filtered",
+    "mag_z_filtered"
+  ]
+}

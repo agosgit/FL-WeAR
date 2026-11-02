@@ -1,0 +1,2 @@
+Metode Classifier,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Train Prediction Time (s),Train Latency per Sample (s),Test Prediction Time (s),Test Latency per Sample (s),Test Latency per Sample (ms)
+Fusion-CNN-LSTM,89.34,89.37,89.34,89.15,2.847611,0.001309,0.21137,0.000777,0.7771

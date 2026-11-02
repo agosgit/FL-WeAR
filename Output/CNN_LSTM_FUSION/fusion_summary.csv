@@ -1,0 +1,2 @@
+Metode Classifier,Accuracy (%),Precision (%),Recall (%),F1 Score (%),Train Prediction Time (s),Test Prediction Time (s)
+CNN-LSTM Fusion,97.45,97.46,97.45,97.44,1.2050056457519531,0.1902472972869873

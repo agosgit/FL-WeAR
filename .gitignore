@@ -125,6 +125,9 @@ create_response_docx.py
 build_ijies_revised_manuscript.py
 build_combined_submission_docx.py
 build_table_response_docx.py
+build_exact_basuki_format_docx.py
+0.Respon comment_*.docx
+0.Respon comment_*.pdf
 generate_comprehensive_experiment_docx.py
 populate_docx_results.py
 replace_docx_figures_with_highres.py
